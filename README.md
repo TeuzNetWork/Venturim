@@ -26,24 +26,24 @@ O **N2 Service Desk** é uma solução completa e moderna que **digitaliza e pro
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   FRONTEND (React)                       │
-│  • Interface responsiva e moderna                        │
+│                   FRONTEND (React)                      │
+│  • Interface responsiva e moderna                       │
 │  • Atualização em tempo real                            │
-│  • Notificações push                                     │
+│  • Notificações push                                    │
 └─────────────────┬───────────────────────────────────────┘
                   │ API REST + WebSockets
 ┌─────────────────▼───────────────────────────────────────┐
-│              BACKEND                     │
+│              BACKEND                                    │
 │  • Autenticação e controle de acesso                    │
-│  • Lógica de negócio (SLA, notificações)               │
-│  • Storage de arquivos                                   │
+│  • Lógica de negócio (SLA, notificações)                │
+│  • Storage de arquivos                                  │
 └─────────────────┬───────────────────────────────────────┘
                   │ SQL
 ┌─────────────────▼───────────────────────────────────────┐
-│           BANCO DE DADOS (PostgreSQL)                    │
+│           BANCO DE DADOS (PostgreSQL)                   │
 │  • 11 tabelas relacionais                               │
 │  • RLS (Row Level Security)                             │
-│  • Triggers e functions automatizadas                    │
+│  • Triggers e functions automatizadas                   │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -187,7 +187,7 @@ Demanda: Reconexão PrintWayy Cliente XYZ
 
 **Canais:**
 - 🔔 Notificações in-app (sino no header)
-- 📧 E-mail (configurável por tipo de evento)
+- 📧 E-mail (configurável por tipo de evento) - REVISÃO DE IMPLEMENTAR
 
 ---
 
